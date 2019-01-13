@@ -62,7 +62,6 @@ class CalculatApp(App):
             self.formula += "*"
         else:
             self.formula += str(instance.text)
-
         self.update_lable()
 
     def calc_result(self, instance):
